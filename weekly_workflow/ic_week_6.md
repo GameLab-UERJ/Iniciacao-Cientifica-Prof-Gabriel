@@ -5,78 +5,42 @@
 ### 8º ARTICLE 
 
 #### Search performed on the search engine:
-	Google Scholar
+- Google Scholar
 
 #### Search term:
-    Intelligent Adaptive Games
-
+- Intelligent Adaptive Games
 
 #### Selection Criteria:
-	Publication date from 2020 to 2026 – Year 2024
-	Citations above 5 – Citations 15
+- Publication date from 2020 to 2026 – Year 2024
+- Citations above 5 – Citations 15
 
+#### Article Title:
+
+- *Improved Belgian AI Algorithm for Dynamic Management in Action Role-Playing Games*
+
+#### Link:
+- <https://www.mdpi.com/2076-3417/12/22/11860>
+
+#### File name:
+- mi2024.pdf
 	
-<b>Article Title:</b> 
-	<blockquote>
-	    <i>Improved Belgian AI Algorithm for Dynamic Management in 
-	    Action Role-Playing Games</i>
-	</blockquote>
+#### Resume:
 
-<b>Link:</b>
-	<blockquote>
-		<a href="https://www.mdpi.com/2076-3417/12/22/11860">
-		    https://www.mdpi.com/2076-3417/12/22/11860
-		</a>
-	</blockquote>
+>#### ChatGPT prompt:
+>- *Summarize the following text using the abstract and conclusion in 100 words.*
 
-<b>File name:</b>
-	<blockquote>
-	    mi2024.pdf
-	</blockquote>
-	
-<b>Resume:</b>
-<blockquote>
-	<b>ChatGPT prompt:</b>
-	<blockquote>
-	    <i>Summarize the following text using the abstract and 
-	    conclusion in 100 words.</i>
-	</blockquote> 
-</blockquote>
+The study presents an improved Belgian AI algorithm for dynamic management in action role-playing games (ARPGs) to optimize non-player character (NPC) decision-making and enhance gameplay. The proposed method refines the traditional Belgian AI algorithm by improving path planning, target selection, and combat strategies, enabling NPCs to respond more efficiently to changing game environments. Experimental results demonstrate improved computational efficiency, more adaptive NPC behavior, and a smoother gaming experience compared with conventional approaches. The authors conclude that the enhanced algorithm effectively supports real-time dynamic game management and provides a practical solution for developing more intelligent and responsive AI systems in ARPGs.
 
-<blockquote align="justify">
-	The study presents an improved Belgian AI algorithm for dynamic 
-	management in action role-playing games (ARPGs) to optimize 
-	non-player character (NPC) decision-making and enhance gameplay. 
-	The proposed method refines the traditional Belgian AI algorithm 
-	by improving path planning, target selection, and combat strategies, 
-	enabling NPCs to respond more efficiently to changing game 
-	environments. Experimental results demonstrate improved 
-	computational efficiency, more adaptive NPC behavior, and a smoother 
-	gaming experience compared with conventional approaches. The authors 
-	conclude that the enhanced algorithm effectively supports real-time 
-	dynamic game management and provides a practical solution for 
-	developing more intelligent and responsive AI systems in ARPGs.
-</blockquote>
 
-<b>Annotation:</b>
-
-<blockquote align="justify"><ul>
-	<li>Use of Belgian artificial intelligence (BAI) a classic but 
-	limited method that is widely used for combat management between the 
-	player and enemies.</li>
-    <li>The type of game used during the experiment was action 
-    role-playing games.</li>
-    <li>The aspect of the game tested was the combat management 
-    systems.</li>
-    <li>Objectives where shortening the development cycle and improving
-    the player retention rate.</li>
-</blockquote></ul>
+>[!NOTE]
+>- Use of Belgian artificial intelligence (BAI) a classic but limited method that is widely used for combat management between the player and enemies.
+>- The type of game used during the experiment was action role-playing games.
+>- The aspect of the game tested was the combat management systems.
+>- Objectives where shortening the development cycle and improving the player retention rate.
 
 <br>
 
-
-
-<hr>
+---
 
 <center><em><strong> 
 	9º ARTICLE 
