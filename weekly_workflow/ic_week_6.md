@@ -24,7 +24,7 @@
 &emsp; Intelligent Adaptive Games
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2024  
+&emsp; Publication date from 2020 to 2026 – Year 2022  
 &emsp; Citations above 5 – Citations 15
 
 #### Article Title:
@@ -38,7 +38,7 @@
 &emsp; <https://www.mdpi.com/2076-3417/12/22/11860>
 
 #### File name:
-&emsp; mi2024.pdf
+&emsp; mi2022.pdf
 	
 #### Resume:
 
@@ -142,7 +142,7 @@ skill–challenge balance. The authors conclude that the framework is a practica
 >[!NOTE]
 >- The **Use** of Dynamic Difficulty Adjustment (DDA) framework for multiplayer Minecraft servers.
 >- The **type of game** used during the experiment was multiplayer Minecraft servers.
->- The **aspect** of the game tested was our DDA system focused on adjusting mobs around players.
+>- The **aspect** of the game tested was the DDA system focused on adjusting mobs around players.
 >- The **objective** was to attempt to improve the experience of all players by better matching mob levels to the collective skill levels of players within a local area.
 
 &emsp;

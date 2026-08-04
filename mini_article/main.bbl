@@ -1,0 +1,47 @@
+\begin{thebibliography}{}
+
+\bibitem[Fuchs et~al. 2024]{fuchs:24}
+Fuchs, R., Gieseke, R., and Dockhorn, A. (2024).
+\newblock Personalized dynamic difficulty adjustment imitation learning meets
+  reinforcement learning.
+\newblock {\em 2024 IEEE Conference on Games (CoG)}.
+
+\bibitem[Kim et~al. 2020]{kim:20}
+Kim, D., Park, S., and Yang, S. (2020).
+\newblock Mastering fighting game using deep reinforcement learning with
+  self-play.
+\newblock {\em 2020 IEEE Conference on Games (CoG)}.
+
+\bibitem[Mi and Gao 2022]{mi:22}
+Mi, Q. and Gao, T. (2022).
+\newblock Improved belgian ai algorithm for dynamic management in action
+  role-playing games.
+\newblock {\em Applied Sciences - Artificial Intelligence in Video Games},
+  12(22).
+
+\bibitem[Moon et~al. 2022]{moon:22}
+Moon, J., Choi, Y., Park, T., Choi, J., Hong, J., and Kim, K. (2022).
+\newblock Diversifying dynamic difficulty adjustment agent by integrating
+  player state models into monte carlo tree search.
+\newblock {\em Expert Systems with Applications}, 205.
+
+\bibitem[Mortazavi1 et~al. 2024]{mortazavi:24}
+Mortazavi1, F., Moradi1, H., and Vahabie, A.-H. (2024).
+\newblock Dynamic difficulty adjustment approaches in video games: a systematic
+  literature review.
+\newblock {\em Multimedia Tools and Applications}, 83:83227--83274.
+
+\bibitem[Pagalyte et~al. 2020]{pagalyte:20}
+Pagalyte, E., ManciniLaura, M., and Climent (2020).
+\newblock Go with the flow: Reinforcement learning in turn-based battle video
+  games.
+\newblock {\em IVA '20: Proceedings of the 20th ACM International Conference on
+  Intelligent Virtual Agents}.
+
+\bibitem[Zeng and Sweetser 2022]{zeng:22}
+Zeng, Z. and Sweetser, P. (2022).
+\newblock Dynamic difficulty adjustment in a multiplayer minecraft server.
+\newblock {\em OzCHI '22: 34th Australian Conference on Human-Computer
+  Interaction}.
+
+\end{thebibliography}

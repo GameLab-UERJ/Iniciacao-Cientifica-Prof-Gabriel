@@ -31,7 +31,7 @@ Intelligent Adaptive Games
 **Link:** ** **  
 https://www.cse.unr.edu/~bdbryant/papers/miikkulainen-2006-wcci.pdf  
 **File name:**  
-miikkulainen-2006-wcci.pdf  
+miikkulainen2006.pdf  
 **Resume:**  
 **ChatGPT prompt:** Summarize the following text in 300 words.  
 This paper explores how **neuroevolution (NE)**—the use of evolutionary algorithms to train artificial neural networks—can create adaptive, intelligent behaviors in video games. Unlike traditional scripted non-player characters (NPCs), neuroevolution enables game agents to learn, improve, and adapt through experience, producing more dynamic and unpredictable gameplay. The paper focuses on  **NEAT (NeuroEvolution of Augmenting Topologies)** and its real-time extension,  **rtNEAT**, which evolves neural network structures continuously during gameplay by replacing low-performing agents one at a time. This approach avoids abrupt behavior changes and allows agents to adapt seamlessly while the game is running.   
@@ -51,7 +51,7 @@ Intelligent Adaptive Games
 **Link:** ** **  
 https://cdn.aaai.org/FLAIRS/2007/FLAIRS07-007.pdf  
 **File name:**  
-FLAIRS07-007.pdf  
+ram2007.pdf  
 **Resume:**  
 **ChatGPT prompt:** Summarize the following text in 300 words.  
 This paper examines how **Artificial Intelligence (AI)** can make computer games more adaptive, engaging, and believable. The authors argue that while graphics, sound, and animation have improved dramatically, game AI often remains simplistic, relying on scripted behaviors that can become repetitive and predictable. They propose that adaptive AI systems should learn from player interactions, adjust their behavior dynamically, and create richer gaming experiences. Beyond entertainment, such technologies have applications in education, military training, corporate simulations, and interactive storytelling.   
