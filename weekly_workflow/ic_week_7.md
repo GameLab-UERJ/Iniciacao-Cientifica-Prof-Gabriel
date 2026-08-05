@@ -19,7 +19,7 @@
 &emsp; Fighting Games DDA
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2024  
+&emsp; Publication date between 2020 and 2026 – Year 2024  
 &emsp; Citations above 5 – Citations 91
 
 #### Article Title:

@@ -24,7 +24,7 @@
 &emsp; Intelligent Adaptive Games
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2022  
+&emsp; Publication date between 2020 and 2026 – Year 2022  
 &emsp; Citations above 5 – Citations 15
 
 #### Article Title:
@@ -68,7 +68,7 @@ The study presents an improved Belgian AI algorithm for dynamic management in ac
 &emsp; Fighting Games DDA
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2020  
+&emsp; Publication date between 2020 and 2026 – Year 2020  
 &emsp; Citations above 5 – Citations 28
 
 #### Article Title:
@@ -113,7 +113,7 @@ reinforcement learning, combining self-play with Monte Carlo Tree Search (MCTS) 
 &emsp; Fighting Games DDA
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2022  
+&emsp; Publication date between 2020 and 2026 – Year 2022  
 &emsp; Citations above 5 – Citations 10
 
 #### Article Title:
@@ -149,7 +149,7 @@ skill–challenge balance. The authors conclude that the framework is a practica
 
 
 ---
-### 11º ARTICLE 
+### 11º ARTICLE
 
 #### Search performed on the search engine:
 &emsp; Google Scholar
@@ -158,7 +158,7 @@ skill–challenge balance. The authors conclude that the framework is a practica
 &emsp; Fighting Games DDA
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2022  
+&emsp; Publication date between 2020 and 2026 – Year 2022  
 &emsp; Citations above 5 – Citations 33
 
 #### Article Title:
@@ -193,8 +193,7 @@ The study presents a dynamic difficulty adjustment (DDA) framework that enhances
 
 
 ---
-### 13º ARTICLE 
-
+### 13º ARTICLE
 #### Search performed on the search engine:
 &emsp; Google Scholar
 
@@ -202,7 +201,7 @@ The study presents a dynamic difficulty adjustment (DDA) framework that enhances
 &emsp; Fighting Games DDA
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2024  
+&emsp; Publication date between 2020 and 2026 – Year 2024  
 &emsp; Citations above 5 – Citations 13
 
 #### Article Title:
@@ -223,16 +222,15 @@ The study presents a dynamic difficulty adjustment (DDA) framework that enhances
 >#### ChatGPT prompt:
 >&emsp; &emsp; *Summarize the following text using the abstract and conclusion in 100 words.*
 
-The study proposes a personalized dynamic difficulty adjustment (PDDA) framework that combines imitation learning and reinforcement learning to create AI opponents that adapt to individual player behavior in real time. An imitation learning agent models the player’s actions, while a reinforcement learning agent is trained to outperform this model, producing personalized and evolving challenges. Preliminary evaluation in the FightingICE environment showed higher player satisfaction compared with a standard Monte Carlo Tree Search (MCTS) opponent. The authors conclude that the framework enables personalized gameplay with minimal designer effort and has strong potential for further refinement through 
-larger user studies and more advanced imitation models.
+The study proposes a personalized dynamic difficulty adjustment (PDDA) framework that combines imitation learning and reinforcement learning to create AI opponents that adapt to individual player behavior in real time. An imitation learning agent models the player’s actions, while a reinforcement learning agent is trained to outperform this model, producing personalized and evolving challenges. Preliminary evaluation in the FightingICE environment showed higher player satisfaction compared with a standard Monte Carlo Tree Search (MCTS) opponent. The authors conclude that the framework enables personalized gameplay with minimal designer effort and has strong potential for further refinement through larger user studies and more advanced imitation models.
 
 &emsp;
 
 >[!NOTE]
->- The **Use** of dynamic difficulty adjustment (DDA) framework that enhances player experience by adapting AI opponents according to players’ affective states rather than relying solely on skill level.
+>- The **Use** personalized dynamic difficulty adjustment (PDDA) framework that combines imitation learning and reinforcement learning.
 >- The **type of game** used during the experiment was a fighting game.
->- The **aspect** of the game tested was a simple concept that uses player states as a score function to determine the action of game agents to automatically adjust difficulty.
->- The **objective** was to improve players’ game experience by adjusting the skill of game agents.
+>- The **aspect** of the game tested was to create AI opponents that adapt to individual player behavior in real time.
+>- The **objective** was to explore balancing game difficulty using machine learning-based agents to challenge players based on their current behavior.
 
 &emsp;
 
@@ -247,7 +245,7 @@ larger user studies and more advanced imitation models.
 &emsp; Fighting Games DDA
 
 #### Selection Criteria:
-&emsp; Publication date from 2020 to 2026 – Year 2020  
+&emsp; Publication date between 2020 and 2026 – Year 2020  
 &emsp; Citations above 5 – Citations 24
 
 #### Article Title:

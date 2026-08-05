@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.28)  4 AUG 2026 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.28)  4 AUG 2026 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -199,29 +199,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./chapters/abstract.tex) (./chapters/introduction.tex
-Underfull \hbox (badness 1043) in paragraph at lines 12--21
-\OT1/ptm/m/n/12 s[]ao abor-da-dos di-ver-sas t[]ecnicas de implementa[][]ao da mec[]anicas de com-bate uti-
- []
+) (./chapters/abstract.tex) (./chapters/introduction.tex) (./chapters/method.tex [1
 
-
-Underfull \hbox (badness 1137) in paragraph at lines 12--21
-\OT1/ptm/m/n/12 AI agent us-ing deep re-in-force-ment learn-ing with self-play [[]], Dy-
- []
-
-) (./chapters/method.tex) (./chapters/conclusion.tex) (./main.bbl [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./main.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 42.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) (./chapters/results.tex) (./chapters/conclusion.tex) (./main.bbl) [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3120 strings out of 480247
- 52304 string characters out of 5896151
- 347958 words of memory out of 5000000
- 21011 multiletter control sequences out of 15000+600000
- 483807 words of font info for 54 fonts, out of 8000000 for 9000
+ 3154 strings out of 480247
+ 52862 string characters out of 5896151
+ 348888 words of memory out of 5000000
+ 21038 multiletter control sequences out of 15000+600000
+ 484121 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,10n,76p,274b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 73591 bytes).
+Output written on main.pdf (2 pages, 72669 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
