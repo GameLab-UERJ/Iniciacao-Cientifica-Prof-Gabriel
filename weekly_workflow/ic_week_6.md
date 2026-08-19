@@ -53,7 +53,7 @@ The study presents an improved Belgian AI algorithm for dynamic management in ac
 >- The **Use** of Belgian artificial intelligence (BAI) a classic but limited method that is widely used for combat management between the player and enemies.
 >- The **type of game** used during the experiment was action role-playing games.
 >- The **aspect** of the game tested was the combat management systems.
->- The **objectives** where shortening the development cycle and improving the player retention rate.
+>- The **objectives** is to propose an improved Belgian artificialintelligence (IBAI) algorithm with dynamic difficulty adjustment (DDA)
 
 &emsp;
 

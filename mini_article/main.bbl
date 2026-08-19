@@ -1,5 +1,22 @@
 \begin{thebibliography}{}
 
+\bibitem[Bontchev 2016]{bontchev2016adaptation}
+Bontchev, B. (2016).
+\newblock Adaptation in affective video games: A literature review.
+\newblock {\em Cybernetics and Information Technologies}, 16(3):3--34.
+
+\bibitem[Fuchs et~al. 2024]{fuchs2024personalized}
+Fuchs, R., Gieseke, R., and Dockhorn, A. (2024).
+\newblock Personalized dynamic difficulty adjustment imitation learning meets
+  reinforcement learning.
+\newblock In {\em 2024 IEEE Conference on Games (CoG)}, pages 1--2. IEEE.
+
+\bibitem[Kim et~al. 2020]{kim2020mastering}
+Kim, D.-W., Park, S., and Yang, S.-i. (2020).
+\newblock Mastering fighting game using deep reinforcement learning with
+  self-play.
+\newblock In {\em 2020 IEEE Conference on Games (CoG)}, pages 576--583. IEEE.
+
 \bibitem[Mi and Gao 2022]{mi2022improved}
 Mi, Q. and Gao, T. (2022).
 \newblock Improved belgian ai algorithm for dynamic management in action
@@ -17,5 +34,23 @@ Mortazavi, F., Moradi, H., and Vahabie, A.-H. (2024).
 \newblock Dynamic difficulty adjustment approaches in video games: a systematic
   literature review.
 \newblock {\em Multimedia Tools and Applications}, 83(35):83227--83274.
+
+\bibitem[Pagalyte et~al. 2020]{pagalyte2020go}
+Pagalyte, E., Mancini, M., and Climent, L. (2020).
+\newblock Go with the flow: Reinforcement learning in turn-based battle video
+  games.
+\newblock In {\em Proceedings of the 20th ACM international conference on
+  intelligent virtual agents}, pages 1--8.
+
+\bibitem[Przybylski et~al. 2010]{przybylski2010motivational}
+Przybylski, A.~K., Rigby, C.~S., and Ryan, R.~M. (2010).
+\newblock A motivational model of video game engagement.
+\newblock {\em Review of general psychology}, 14(2):154--166.
+
+\bibitem[Zeng and Sweetser 2022]{zeng2022dynamic}
+Zeng, Z. and Sweetser, P. (2022).
+\newblock Dynamic difficulty adjustment in a multiplayer minecraft server.
+\newblock In {\em Proceedings of the 34th Australian Conference on
+  Human-Computer Interaction}, pages 319--324.
 
 \end{thebibliography}
