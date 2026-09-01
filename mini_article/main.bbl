@@ -1,9 +1,43 @@
 \begin{thebibliography}{}
 
+\bibitem[Ang and Mitchell 2017]{ang2017comparing}
+Ang, D. and Mitchell, A. (2017).
+\newblock Comparing effects of dynamic difficulty adjustment systems on video
+  game experience.
+\newblock In {\em Proceedings of the annual symposium on computer-human
+  interaction in play}, pages 317--327.
+
 \bibitem[Bontchev 2016]{bontchev2016adaptation}
 Bontchev, B. (2016).
 \newblock Adaptation in affective video games: A literature review.
 \newblock {\em Cybernetics and Information Technologies}, 16(3):3--34.
+
+\bibitem[Constant and Levieux 2019]{constant2019dynamic}
+Constant, T. and Levieux, G. (2019).
+\newblock Dynamic difficulty adjustment impact on players' confidence.
+\newblock In {\em Proceedings of the 2019 CHI conference on human factors in
+  computing systems}, pages 1--12.
+
+\bibitem[Demediuk et~al. 2017]{demediuk2017monte}
+Demediuk, S., Tamassia, M., Raffe, W.~L., Zambetta, F., Li, X., and Mueller, F.
+  (2017).
+\newblock Monte carlo tree search based algorithms for dynamic difficulty
+  adjustment.
+\newblock In {\em 2017 IEEE conference on computational intelligence and games
+  (CIG)}, pages 53--59. IEEE.
+
+\bibitem[Denisova and Cairns 2015]{denisova2015adaptation}
+Denisova, A. and Cairns, P. (2015).
+\newblock Adaptation in digital games: the effect of challenge adjustment on
+  player performance and experience.
+\newblock In {\em Proceedings of the 2015 annual symposium on computer-human
+  interaction in play}, pages 97--101.
+
+\bibitem[Duque et~al. 2020]{duque2020finding}
+Duque, M.~G., Palm, R.~B., Ha, D., and Risi, S. (2020).
+\newblock Finding game levels with the right difficulty in a few trials through
+  intelligent trial-and-error. corr abs/2005.07677 (2020).
+\newblock {\em arXiv preprint arXiv:2005.07677}.
 
 \bibitem[Fuchs et~al. 2024]{fuchs2024personalized}
 Fuchs, R., Gieseke, R., and Dockhorn, A. (2024).
@@ -11,11 +45,48 @@ Fuchs, R., Gieseke, R., and Dockhorn, A. (2024).
   reinforcement learning.
 \newblock In {\em 2024 IEEE Conference on Games (CoG)}, pages 1--2. IEEE.
 
+\bibitem[Ishihara et~al. 2018]{ishihara2018monte}
+Ishihara, M., Ito, S., Ishii, R., Harada, T., and Thawonmas, R. (2018).
+\newblock Monte-carlo tree search for implementation of dynamic difficulty
+  adjustment fighting game ais having believable behaviors.
+\newblock In {\em 2018 IEEE Conference on Computational Intelligence and Games
+  (CIG)}, pages 1--8. IEEE.
+
 \bibitem[Kim et~al. 2020]{kim2020mastering}
 Kim, D.-W., Park, S., and Yang, S.-i. (2020).
 \newblock Mastering fighting game using deep reinforcement learning with
   self-play.
 \newblock In {\em 2020 IEEE Conference on Games (CoG)}, pages 576--583. IEEE.
+
+\bibitem[Kivikangas et~al. 2011]{kivikangas2011review}
+Kivikangas, J.~M., Chanel, G., Cowley, B., Ekman, I., Salminen, M.,
+  J{\"a}rvel{\"a}, S., and Ravaja, N. (2011).
+\newblock A review of the use of psychophysiological methods in game research.
+\newblock {\em journal of gaming \& virtual worlds}, 3(3):181--199.
+
+\bibitem[Lara-Alvarez et~al. 2018]{lara2018induction}
+Lara-Alvarez, C., Mitre-Hernandez, H., Flores, J.~J., and P{\'e}rez-Espinosa,
+  H. (2018).
+\newblock Induction of emotional states in educational video games through a
+  fuzzy control system.
+\newblock {\em IEEE Transactions on Affective Computing}, 12(1):66--77.
+
+\bibitem[Lavou{\'e} et~al. 2018]{lavoue2018adaptive}
+Lavou{\'e}, E., Monterrat, B., Desmarais, M., and George, S. (2018).
+\newblock Adaptive gamification for learning environments.
+\newblock {\em IEEE Transactions on Learning Technologies}, 12(1):16--28.
+
+\bibitem[Lopes and Bidarra 2011]{lopes2011adaptivity}
+Lopes, R. and Bidarra, R. (2011).
+\newblock Adaptivity challenges in games and simulations: a survey.
+\newblock {\em IEEE Transactions on Computational Intelligence and AI in
+  Games}, 3(2):85--99.
+
+\bibitem[Lora et~al. 2016]{lora2016dynamic}
+Lora, D., S{\'a}nchez-Ruiz, A.~A., Gonz{\'a}lez-Calero, P.~A., and
+  G{\'o}mez-Mart{\'\i}n, M.~A. (2016).
+\newblock Dynamic difficulty adjustment in tetris.
+\newblock In {\em FLAIRS}, pages 335--339.
 
 \bibitem[Mi and Gao 2022]{mi2022improved}
 Mi, Q. and Gao, T. (2022).
@@ -52,5 +123,10 @@ Zeng, Z. and Sweetser, P. (2022).
 \newblock Dynamic difficulty adjustment in a multiplayer minecraft server.
 \newblock In {\em Proceedings of the 34th Australian Conference on
   Human-Computer Interaction}, pages 319--324.
+
+\bibitem[Zohaib 2018]{zohaib2018dynamic}
+Zohaib, M. (2018).
+\newblock Dynamic difficulty adjustment (dda) in computer games: A review.
+\newblock {\em Advances in Human-Computer Interaction}, 2018(1):5681652.
 
 \end{thebibliography}

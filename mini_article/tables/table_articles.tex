@@ -1,54 +1,56 @@
-\newcommand{\methodfuchs}{Personalized DDA framework that combines imitation learning and reinforcement learning}
-\newcommand{\gamefuchs}{Fighting}
-\newcommand{\aspectfuchs}{Creation AI opponents that adapt to individual player behavior in real time}
-\newcommand{\objectivefuchs}{Explore balancing game difficulty using machine learning-based agents to challenge players based on their current behavior}
+\newcommand{\methodfuchs}{DDA \textit{framework} personallizado que combina \textit{imitation learning} e \textit{reinforcement learning}}
+\newcommand{\gamefuchs}{\textit{Fighting}}
+\newcommand{\aspectfuchs}{Criação de oponentes que usam AI para se adaptar ao comportamento individual do jogador em tempo real}
+\newcommand{\objectivefuchs}{Explorar o balanceamento da dificuldade do jogo utilizando agentes baseados em \textit{machine learning} para desafiar os jogadores de acordo com seu comportamento atual}
 
 \newcommand{\methodzeng}{DDA}
-\newcommand{\gamezeng}{Sandbox and survival}
-\newcommand{\aspectzeng}{DDA system focused on adjusting mobs around players}
-\newcommand{\objectivezeng}{Attempt to improve the experience of all players by better matching mob levels to the collective skill levels of players within a local area}
+\newcommand{\gamezeng}{\textit{Sandbox} e \textit{survival}}
+\newcommand{\aspectzeng}{Sistema de DDA focado no ajuste dos \textit{mobs} ao redor dos jogadores}
+\newcommand{\objectivezeng}{Buscar melhorar a experiência de todos os jogadores, adequando melhor os níveis dos \textit{mobs} aos níveis de habilidade coletivos dos jogadores dentro de uma área local}
 
-\newcommand{\methodmoon}{DDA}
+\newcommand{\methodmoon}{DDA com \textit{Monte Carlo tree search} e estado do jogador}
 \newcommand{\gamemoon}{Fighting}
-\newcommand{\aspectmoon}{Player states as a score function to determine the action of game agents to automatically adjust difficulty}
-\newcommand{\objectivemoon}{Improve players' game experience by adjusting the skill of game agents}
+\newcommand{\aspectmoon}{Estados dos jogadores como uma função de pontuação para determinar a ação dos agentes do jogo e ajustar automaticamente a dificuldade do jogo}
+\newcommand{\objectivemoon}{Melhorar a experiência dos jogadores ajustando a habilidade dos agentes do jogo}
 
-\newcommand{\methodmi}{Belgian artificial intelligence}
-\newcommand{\gamemi}{Action role-playing}
-\newcommand{\aspectmi}{Combat management systems}
-\newcommand{\objectivemi}{Propose an improved Belgian artificialintelligence algorithm with dynamic difficulty adjustment}
+\newcommand{\methodmi}{\textit{Belgian artificial intelligence}}
+\newcommand{\gamemi}{\textit{Action role-playing}}
+\newcommand{\aspectmi}{Sistema de gerenciamento de combate}
+\newcommand{\objectivemi}{Propor um algoritmo de \textit{Belgian artificial intelligence} melhorado com DDA}
 
-\newcommand{\methodkim}{AI agent using deep reinforcement learning with self-play and Monte Carlo Tree Search}
-\newcommand{\gamekim}{Fighting}
-\newcommand{\aspectkim}{Combat management systems}
-\newcommand{\objectivekim}{Generate fighting game AI to perform against other AIs which had participated in the past competitions of FightingICE game environment}
+\newcommand{\methodkim}{Agente de AI usando \textit{deep reinforcement learning} com \textit{self-play} e \textit{Monte Carlo Tree Search}}
+\newcommand{\gamekim}{\textit{Fighting}}
+\newcommand{\aspectkim}{Sistema de gerenciamento de combate}
+\newcommand{\objectivekim}{Gerar uma AI para jogos de luta capaz de competir contra outras AIs que participaram de competições anteriores no ambiente de jogos FightingICE}
 
-\newcommand{\methodpagalyte}{Reinforcement learning-based DDA}
-\newcommand{\gamepagalyte}{Turn-based battle}
-\newcommand{\aspectpagalyte}{Agent's choices of actions rather than the environment or the agent's statistics}
-\newcommand{\objectivepagalyte}{Achieve game flow through the introduction of DDA and RL in turn-based battle games}
+\newcommand{\methodpagalyte}{\textit{Reinforcement learning-based DDA}}
+\newcommand{\gamepagalyte}{\textit{Turn-based battle}}
+\newcommand{\aspectpagalyte}{Nas escolhas de ações do agente, em vez do ambiente ou das estatísticas do agente}
+\newcommand{\objectivepagalyte}{Alcançar um \textit{game flow} envolvente por meio da introdução de DDA e RL em jogos de batalha baseados em turnos}
 
 
 
 \begin{landscape} % rotate table and page
+\renewcommand{\tablename}{Tabela}
 \begin{table}[htbp]
 
     \centering
-    \caption{List of included articles}
+    \caption{Lista de artigos incluídos}
     \vspace{6pt}
     \small % letters size
     \renewcommand{\arraystretch}{1.5} % row separation
 
-    \begin{tabular}{p{4cm}p{4cm}p{3.5cm}p{5cm}p{6cm}}
+    \label{tab:table_articles}
+    \begin{tabular}{p{4cm}p{4cm}p{3cm}p{5cm}p{6.5cm}}
     \toprule[0.25px]
-        Reference                   & Method used       & Game genre    & Aspect modified   & Objective         \\
+        Referência                  & Método usado      & Gênero do jogo    & Modificação feita & Objetivo          \\
     \midrule[1.5px]
-        \cite{fuchs2024personalized}& \methodfuchs      & \gamefuchs    & \aspectfuchs      & \objectivefuchs   \\
-        \cite{zeng2022dynamic}      & \methodzeng       & \gamezeng     & \aspectzeng       & \objectivezeng    \\
-        \cite{moon2022diversifying} & \methodmoon       & \gamemoon     & \aspectmoon       & \objectivemoon    \\
-        \cite{mi2022improved}       & \methodmi         & \gamemi       & \aspectmi         & \objectivemi      \\
-        \cite{kim2020mastering}     & \methodkim        & \gamekim      & \aspectkim        & \objectivekim     \\
-        \cite{pagalyte2020go}       & \methodpagalyte   & \gamepagalyte & \aspectpagalyte   & \objectivepagalyte\\
+        \cite{fuchs2024personalized}& \methodfuchs      & \gamefuchs        & \aspectfuchs      & \objectivefuchs   \\
+        \cite{zeng2022dynamic}      & \methodzeng       & \gamezeng         & \aspectzeng       & \objectivezeng    \\
+        \cite{moon2022diversifying} & \methodmoon       & \gamemoon         & \aspectmoon       & \objectivemoon    \\
+        \cite{mi2022improved}       & \methodmi         & \gamemi           & \aspectmi         & \objectivemi      \\
+        \cite{kim2020mastering}     & \methodkim        & \gamekim          & \aspectkim        & \objectivekim     \\
+        \cite{pagalyte2020go}       & \methodpagalyte   & \gamepagalyte     & \aspectpagalyte   & \objectivepagalyte\\
     \bottomrule[0.25px]
     \end{tabular}
     

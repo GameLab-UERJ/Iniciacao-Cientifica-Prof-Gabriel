@@ -19,26 +19,36 @@
 
 \usepackage{graphicx,url}
 
-%\usepackage[brazil]{babel}   
 \usepackage[utf8]{inputenc}  
 
 \usepackage{booktabs} % add table lines
 \usepackage{pdflscape} % rotate page with table
+
+
 \usepackage{microtype} % better line break
+\sloppy % It is a LaTeX declaration that makes the line-breaking algorithm less demanding.
 
-\sloppy
 
-\title{Dynamic difficulty adjustment of caracters in Games 
-\\mini literature review}
+\usepackage{hyperref} % To make citations clickable links
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,   % Color of citation links
+    linkcolor=blue    % Color of regular internal links
+}
 
-\author{Douglas C.Carvalho \inst{1}}
+
+\title{Personagens de jogos mais dinâmicos,
+\\ uma mini \textit{survey} da literatura}
+
+\author{Douglas C. Carvalho \inst{1}, Gabriel C. Carvalho \inst{1}}
 
 
 \address{
   Faculdade de Engenharia -- Departamento de Engenharia de Sistemas e Computação\\
   Universidade do Estado do Rio de Janeiro (UERJ) -- Rio de Janeiro -- RJ -- Brazil
-  \email{carvalho.douglas@graduacao.uerj.br}
+\email{carvalho.douglas@graduacao.uerj.br, gabrielc@eng.uerj.br}
 }
+
 
 \begin{document} 
 
@@ -55,8 +65,7 @@
 
   \input{chapters/conclusion.tex}
 
-
-
+  \renewcommand{\refname}{Bibliografia}
   \bibliographystyle{bibliography/sbc}
   \bibliography{bibliography/sbc-template}
 

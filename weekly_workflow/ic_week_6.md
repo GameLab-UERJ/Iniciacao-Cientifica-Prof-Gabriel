@@ -184,7 +184,7 @@ The study presents a dynamic difficulty adjustment (DDA) framework that enhances
 &emsp;
 
 >[!NOTE]
->- The **Use** of dynamic difficulty adjustment (DDA) framework that enhances player experience by adapting AI opponents according to players’ affective states rather than relying solely on skill level.
+>- The **Use** of dynamic difficulty adjustment (DDA) with Monte Carlo tree searchframework that enhances player experience by adapting AI opponents according to players’ affective states rather than relying solely on skill level.
 >- The **type of game** used during the experiment was fighting game.
 >- The **aspect** of the game tested was a simple concept that uses player states as a score function to determine the action of game agents to automatically adjust difficulty.
 >- The **objective** was to improve players’ game experience by adjusting the skill of game agents.

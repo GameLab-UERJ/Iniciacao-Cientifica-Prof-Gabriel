@@ -1,2 +1,115 @@
-\section{Results} \label{sec:results}
-\input{tables/table_articles.tex}
+\section{Resultados} \label{sec:results}
+    Nesta seção, os métodos utilizados nos artigos
+    selecionados são analisados com base nos dados que
+    foram apresentados na tabela \ref{tab:table_articles}.
+    Esses dados oferecem uma visão geral dos tipos de 
+    artigos publicados na áreane os avanços no ajuste de
+    dificuldade em jogos.
+
+    Segundo a literatura, os métodos utilizados podem 
+    ser abordados de duas maneiras 
+    \cite{lopes2011adaptivity}.
+    A primeira abordagem envolve a manipulação de parâmetros 
+    do jogo, como o número de inimigos ou o poder dos 
+    oponentes, durante a partida. Os desenvolvedores 
+    projetam um sistema de ajuste de nível ou de dificuldade
+    que modifica a dificuldade do jogo com base no 
+    desempenho, na personalidade ou nas características dos 
+    jogadores \cite{lara2018induction}.
+    A segunda abordagem personaliza o ambiente ou os 
+    elementos do jogo com base nas expectativas e 
+    características dos jogadores, sendo que os elementos 
+    selecionados não determinam necessariamente a 
+    dificuldade do jogo \cite{lavoue2018adaptive}.
+
+    Nesta \textit{survey}, focamos na análise de artigos 
+    que utilizaram a primeira abordagem para a adaptação,
+    em tempo real, dos desafios dos jogos, buscando 
+    garantir uma experiência satisfatória e envolvente 
+    para os jogadores.
+
+    \input{tables/table_articles.tex}
+
+
+\subsection{\textit{Dynamic Difficulty Ajustment}}
+    O \textit{Dynamic difficulty adjustment} (DDA) 
+    consiste em duas etapas \cite{zohaib2018dynamic}.
+    Primeiramente, mede-se o nível de habilidade dos 
+    jogadores por meio de uma função de pontuação. 
+    Em seguida, ajusta-se a dificuldade do jogo, de 
+    acordo com os níveis de habilidade estimados, de 
+    diversas formas, como: \cite{moon2022diversifying} 
+    como, o ajuste de parâmentros no jogo
+    \cite{denisova2015adaptation},
+    a manipulação do ambiente de jogo
+    \cite{duque2020finding,lora2016dynamic} 
+    e a utilização agentes de jogo
+    \cite{demediuk2017monte,ishihara2018monte}, sendo
+    essas abordagens utilizadas para controlar o nível
+    de dificuldade.
+    
+
+\subsection{DDA com \textit{Monte Carlo tree search} e o estado do jogdor}    
+    Por meio da utilização de agentes de IA como 
+    apresentado em 
+    \cite{demediuk2017monte,ishihara2018monte},
+    nos quais é relatado um método de utiliza um agente 
+    de DDA baseado em \textit{Monte Carlo tree search} 
+    (MCTS) em um jogo de luta. Onde a dificuldade do jogo
+    é manipulada, por meio da implementação de um agente 
+    de DDA que utiliza a diferença de 
+    \textit{health points} (HP) entre o jogador e o 
+    agente como função de pontuação, empregando um 
+    algoritmo MCTS de maneira semelhante à abordagem 
+    apresentada em \cite{moon2022diversifying}.
+    
+    Contudo, essas técnicas de medição das habilidades dos
+    jogadores que utilizam funções de pontuação heurísticas
+    especificadas pelos desenvolvedores pressupõem que 
+    ajustar a dificuldade do jogo por meio dessas métricas
+    (com base em HP, pontuação no jogo, dano, etc.)
+    pode aumentar o \textit{player experience} (PX). 
+    No entanto, a PX e a dificuldade do jogo 
+    ajustada por essas medidas frequentemente apresentam 
+    inconsistências
+    \cite{ang2017comparing,constant2019dynamic}.
+
+    Por isso, em \cite{moon2022diversifying}, os estados 
+    do jogador são utilizados no treinamento da IA do 
+    jogo juntamente com o MCTS, permitindo que o DDA se 
+    ajuste automaticamente e progressivamente às ações 
+    dos oponentes. Essa abordagem considera que a 
+    dificuldade do jogo pode evocar diversos estados 
+    cognitivos e emocionais que podem impactar a PX 
+    \cite{kivikangas2011review}. Nesse contexto, o MCTS 
+    buscando a próxima ação, considerada quase 
+    ótima para a IA do jogo, simulando uma grande 
+    quantidade de situações possíveis a partir do estado
+    atual do jogo. 
+    
+    Para tanto, as simulações do MCTS consistem em quatro 
+    etapas: \textit{selection}, \textit{expansion}
+    , \textit{simulation} e \textit{backpropagation}. 
+    Em cada iteração, o estado atual é definido como o nó
+    raiz. Em seguida, as quatro etapas da busca em 
+    árvore são executadas dentro de um limite
+    de tempo predeterminado. Após a conclusão da busca, 
+    o agente escolhe o nó filho mais visitado ou aquele 
+    de maior valor para realizar a próxima ação 
+    \cite{moon2022diversifying}.
+
+    Sendo assim, a principal diferença entre o modelo atual 
+    e o método de DDA heurístico é a utilização direta
+    do estado do jogadore como função de pontuação para
+    o MCTS, em vez de funções heurísticas, como 
+    pontuação do jogo, taxa de vitória e diferenças de HP.
+    Onde o modelo do estado do jogador combina dos 
+    registros de partidas reais e das partidas simuladas
+    pelo MCTS para prever como o estado do jogador se 
+    modificará no futuro usando \textit{machine learning}
+    (ML) \cite{moon2022diversifying}.
+
+
+    \subsection{\textit{Reinforcement learning-based DDA}}
+
+    \subsection{\textit{Belgian artificial intelligence}}
