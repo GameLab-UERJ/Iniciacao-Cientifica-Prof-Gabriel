@@ -1,0 +1,58 @@
+\subsection{DDA com \textit{Monte Carlo tree search} e o estado do jogdor}    
+    O método que utiliza um  agente de DDA baseado em 
+    \textit{Monte Carlo tree search} (MCTS) em um jogo
+    de luta é apresentado em 
+    \cite{demediuk2017monte,ishihara2018monte}. Nesse 
+    método, a dificuldade do jogo é manipulada por meio
+    da implementação de um agente de DDA que utiliza a 
+    diferença de \textit{health points} (HP) entre o 
+    jogador e o agente como função de pontuação, de 
+    maneira semelhante à abordagem apresentada em 
+    \cite{moon2022diversifying}.
+    
+    Contudo, essas técnicas de medição das habilidades dos
+    jogadores, que utilizam funções de pontuação heurísticas
+    especificadas pelos desenvolvedores, pressupõem que o
+    ajuste da dificuldade do jogo por meio dessas métricas
+    (com base em HP, pontuação no jogo, dano, etc.)
+    pode aumentar o \textit{player experience} (PX). 
+    No entanto, a PX e a dificuldade do jogo 
+    ajustada por essas medidas frequentemente apresentam 
+    inconsistências
+    \cite{ang2017comparing,constant2019dynamic}.
+
+    Por isso, em \cite{moon2022diversifying}, os estados 
+    do jogador são utilizados no treinamento da IA do 
+    jogo juntamente com o MCTS, permitindo que o DDA se 
+    ajuste automaticamente e progressivamente às ações 
+    dos oponentes. Essa abordagem considera que a 
+    dificuldade do jogo pode evocar diversos estados 
+    cognitivos e emocionais que podem impactar a PX 
+    \cite{kivikangas2011review}. Nesse contexto, o MCTS 
+    busca a próxima ação, considerada quase 
+    ótima para a IA do jogo, por meio da simulação de 
+    um grande número de situações possíveis a 
+    partir do estado atual do jogo. 
+    
+    Para tanto, as simulações do MCTS consistem em quatro 
+    etapas: \textit{selection}, \textit{expansion}, 
+    \textit{simulation} e \textit{backpropagation}. 
+    Em cada iteração, o estado atual é definido como o nó
+    raiz. Em seguida, as quatro etapas da busca em 
+    árvore são executadas dentro de um limite
+    de tempo predeterminado. Após a conclusão da busca, 
+    o agente escolhe o nó filho mais visitado ou aquele 
+    que apresenta o maior valor para realizar a próxima 
+    ação \cite{moon2022diversifying}.
+
+    Sendo assim, a principal diferença entre o modelo 
+    proposto em \cite{moon2022diversifying} e o método de 
+    DDA heurístico é a utilização direta do estado do 
+    jogador como função de pontuação para o MCTS, em vez
+    de funções heurísticas, como pontuação do jogo, taxa
+    de vitória e diferenças de HP. O modelo do estado do
+    jogador combina registros de partidas reais e de 
+    partidas simuladas pelo MCTS para prever como o 
+    estado do jogador se modificará no futuro por meio
+    de técnicas de \textit{machine learning} (ML) 
+    \cite{moon2022diversifying}.

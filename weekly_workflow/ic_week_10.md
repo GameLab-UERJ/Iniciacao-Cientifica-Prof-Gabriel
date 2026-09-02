@@ -5,9 +5,9 @@
 ### Work Done
 
 >[!NOTE]
->- Revised text
+>- Text revised
 >- Translate text to portuguese
->- Complet Resultados\DDA com Monte Carlo tree search e o estado do jogdor inconplited
+>- Complet 'Resultados\DDA com Monte Carlo tree search e o estado do jogdor'
 >- Planned next week
 
 &emsp;

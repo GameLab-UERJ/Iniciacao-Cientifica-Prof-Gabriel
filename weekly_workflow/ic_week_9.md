@@ -8,7 +8,7 @@
 >- Revised text
 >- Add Resultados
 >- Add Resultados\DDA
->- Add Resultados\DDA com Monte Carlo tree search e o estado do jogdor inconplited
+>- Add Resultados\DDA com Monte Carlo tree search e o estado do jogdor incompleted
 >- Planned next week
 
 &emsp;
