@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1788321113 "main.aux" "main.bbl" "main" 1788322369
+["bibtex main"] 1788387558 "main.aux" "main.bbl" "main" 1788388111
   "./bibliography/sbc.bst" 1734804948 21863 e2f961827e28074ef5a2bc27ccb7b310 ""
-  "bibliography/sbc-template.bib" 1788188718 6921 b6fa7400817961d175faaff8331f67b4 ""
-  "main.aux" 1788322369 4730 8464fcac1c81b9cbb25b584644c653da "pdflatex"
+  "bibliography/sbc-template.bib" 1788383667 7511 15d95fffc1ee76098afdb29f74828879 ""
+  "main.aux" 1788388110 4909 1ce701cdfc9fdc96048882fe1ef94d5b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1788322367 "/home/douglas/UERJ/2026.1_uerj/ic/Iniciacao-Cientifica-Prof-Gabriel/mini_article/main.tex" "main.pdf" "main" 1788322369
+["pdflatex"] 1788388109 "/home/douglas/UERJ/2026.1_uerj/ic/Iniciacao-Cientifica-Prof-Gabriel/mini_article/main.tex" "main.pdf" "main" 1788388111
   "/etc/texmf/web2c/texmf.cnf" 1785199764 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/douglas/UERJ/2026.1_uerj/ic/Iniciacao-Cientifica-Prof-Gabriel/mini_article/main.tex" 1788322367 1928 82d389de8011eca41150b3e0af7c6071 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -136,19 +136,19 @@
   "caption2.sty" 1734804948 15189 50845fba222dc25666abc3397b231fab ""
   "chapters/abstract.tex" 1788316830 67 cfabf1ce0e4c9acec8d54ed3db24e907 ""
   "chapters/conclusion.tex" 1788192080 25 f1711790bf310af818f6bedca8d71a3f ""
-  "chapters/introduction.tex" 1788318206 1964 39427e593ece4c18b3bc551a81ec68de ""
-  "chapters/method.tex" 1788316286 2232 50e79321b6ffb700ef6d8c29489163b6 ""
+  "chapters/introduction.tex" 1788385831 2024 498d3004a33b59c65ed91b599715df11 ""
+  "chapters/method.tex" 1788387302 2219 c2a9f8e35a707852cd7500ed38375b9a ""
   "chapters/results/bai.tex" 1788282582 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "chapters/results/dda.tex" 1788314485 640 c00f8cdcde527742a86b5953e978c8b3 ""
-  "chapters/results/dda_with_mcts.tex" 1788314184 2917 4e6c23d80d55b0658e3322f384d59252 ""
+  "chapters/results/dda.tex" 1788387354 641 ab72a4a955639426510c2405b9253527 ""
+  "chapters/results/dda_with_mcts.tex" 1788387639 2916 5e27080f22ff19211bbdf109a6ee87cf ""
   "chapters/results/results.tex" 1788322073 1625 542f054d8ba40d153707734392a3e6ef ""
   "chapters/results/rl_based_dda.tex" 1788320791 59 60d5bb47de921b15c7ccf81fd4daf9f7 ""
-  "main.aux" 1788322369 4730 8464fcac1c81b9cbb25b584644c653da "pdflatex"
-  "main.bbl" 1788321113 5906 349bc485832426e33903afe4a7b6fdb4 "bibtex main"
-  "main.out" 1788322369 1916 64436a28aa6e50522b95343b0a8468ce "pdflatex"
+  "main.aux" 1788388110 4909 1ce701cdfc9fdc96048882fe1ef94d5b "pdflatex"
+  "main.bbl" 1788387558 6443 8609a660e46289c3e31c031b99f34ae4 "bibtex main"
+  "main.out" 1788388110 1921 c5c07041c531fd29ddbdb28f7e0ffbfc "pdflatex"
   "main.tex" 1788322367 1928 82d389de8011eca41150b3e0af7c6071 ""
   "sbc-template.sty" 1734804948 5280 0a277450ee6cfc82a68e4b0b0f92e15e ""
-  "tables/table_articles.tex" 1788321230 3879 a78d2c33a1c879cf2e020186189f3084 ""
+  "tables/table_articles.tex" 1788388109 3857 cdd964ab9116ee9584a5edd4972ffaa8 ""
   (generated)
   "main.aux"
   "main.log"
