@@ -1,0 +1,105 @@
+\usepackage{graphicx,url}
+% graphicx → allows you to insert images.
+% url → allows you to display URLs correctly, especially 
+%       long URLs.
+
+\usepackage[utf8]{inputenc}
+% It allows you to type Portuguese characters directly
+
+\usepackage[a4paper,
+            top=3.5cm,
+            bottom=2.5cm,
+            left=3cm,
+            right=3cm,
+            nohead,
+            nofoot]{geometry}
+% Paper formatting requirements
+
+\usepackage[skip=6pt]{parskip}
+% Sets the spacing between paragraphs
+
+\usepackage{newtxtext,newtxmath}
+% Changes the document's fonts to a Times-style font
+
+\usepackage{subcaption}
+% The subcaption package allows you to create subfigures,
+% which is useful when you want multiple images inside 
+% one figure, each with its own caption.
+
+\usepackage{booktabs}
+% Adds professional-looking table lines
+
+\usepackage[table]{xcolor} 
+% Alternates row colors throughout the table
+
+\usepackage{tabularx}
+% Allows you to create tables with automatically adjustable column widths
+
+\usepackage{caption}
+% Allows you to customize the appearance of figure and table captions
+
+\captionsetup{
+    font={small,bf},
+    skip=6pt,
+    labelsep=period
+}
+
+
+\usepackage{titlesec}
+% Allows you to customize the appearance and spacing of section headings
+
+% Section title formatting
+\titleformat{\section} % Command from titlesec used to customize section titles
+    {\fontsize{13}{15}\selectfont\bfseries} % Defines the appearance of the section title
+    {\thesection.} % Displays the section number
+    {1em} % Space between the section number and title
+    {} %Code/text inserted before the section title
+
+% Subsection title formatting
+\titleformat{\subsection}
+    {\fontsize{12}{14}\selectfont\bfseries}
+    {\thesubsection.}
+    {1em}
+    {}
+
+% Section spacing
+\titlespacing*{\section}
+    {0pt}    % Left indentation
+    {12pt}   % Space before section
+    {6pt}    % Space after section
+
+% Set the normal paragraph indentation
+\setlength{\parindent}{1.27cm} 
+
+
+\usepackage{titling}
+% Allows you to customize the formatting of the title, authors, and date
+
+\pretitle{
+    \begin{center}
+    \fontsize{16}{19}\selectfont\bfseries
+}
+\posttitle{
+    \par
+    \end{center}
+    \vspace{12pt}
+}
+
+\preauthor{
+    \begin{center}
+    \fontsize{12}{14}\selectfont\bfseries
+}
+\postauthor{
+    \par
+    \end{center}
+    \vspace{12pt}
+}
+
+% Tells LaTeX to be more flexible when breaking lines.
+\sloppy 
+
+
+% Set table name to 'tabela'
+\renewcommand{\tablename}{Tabela}
+% Set figure name to 'figura'
+\renewcommand{\figurename}{Figura}

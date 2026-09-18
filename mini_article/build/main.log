@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.28)  2 SEP 2026 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.28)  15 SEP 2026 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,7 +289,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count281
 \l__pdf_internal_box=\box54
-) (./main.aux)
+) (build/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -395,7 +395,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 53.
 LaTeX Info: Redefining \pageref on input line 53.
 LaTeX Info: Redefining \nameref on input line 53.
- (./main.out) (./main.out)
+ (build/main.out) (build/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -422,15 +422,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./chapters/abstract.tex) (./chapters/introduction.tex
-Underfull \hbox (badness 1960) in paragraph at lines 2--22
-\OT1/ptm/m/n/12 (+20) se esfor[]am para man-ter o en-ga-ja-mento dos jo-gadores por um longo per[]^^Podo
- []
-
-) (./chapters/method.tex [1
+ (./chapters/abstract.tex) (./chapters/introduction.tex) (./chapters/method.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 40.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 44.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )) (./chapters/results/results.tex (./tables/table_articles.tex [2]
@@ -480,23 +475,23 @@ Overfull \hbox (25.85666pt too wide) in paragraph at lines 45--57
 [3]) (./chapters/results/dda.tex) (./chapters/results/dda_with_mcts.tex) (./chapters/results/rl_based_dda.tex) (./chapters/results/bai.tex)) (./chapters/conclusion.tex) (./main.bbl [4
 
 
-] [5]) [6] (./main.aux)
+] [5]) [6] (build/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E8E4DE66FFC32CFA1A3D9D3CFE00813B;1921.
+(rerunfilecheck)             Checksum: CF0DD4151DB4C484A3670D15FC847F7A;1762.
  ) 
 Here is how much of TeX's memory you used:
- 13128 strings out of 480247
- 205657 string characters out of 5896151
- 536767 words of memory out of 5000000
- 30533 multiletter control sequences out of 15000+600000
- 506659 words of font info for 240 fonts, out of 8000000 for 9000
+ 13133 strings out of 480247
+ 205736 string characters out of 5896151
+ 536766 words of memory out of 5000000
+ 30532 multiletter control sequences out of 15000+600000
+ 506897 words of font info for 244 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,15n,76p,1082b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 120457 bytes).
+Output written on build/main.pdf (6 pages, 119897 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 55897 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 55889 words of extra memory for PDF output out of 61914 (max. 10000000)
 

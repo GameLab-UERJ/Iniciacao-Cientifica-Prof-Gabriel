@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+
+\input{packages.tex}
+
+
+%%%%%%%
+
+
+\title{\textit{Game Design Document (GDD) - SoulSwords}}
+\author{Douglas Carvalho}
+\date{}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\maketitle % Sets the page style of the entire document to empty
+
+\input{sections/what_is_soulswords.tex}
+
+% If you use: \maketitle
+% LaTeX may apply a different page style to the title page. 
+% To guarantee that the title page has no number
+\thispagestyle{empty} % Removes the page number, header, and footer only from the current page
+
+\input{sections/design_pillars.tex}
+\input{sections/audience_marketing.tex}
+\input{sections/core_gameplay.tex}
+\input{sections/controls.tex}
+
+\end{document}
