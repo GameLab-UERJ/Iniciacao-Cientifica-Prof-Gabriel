@@ -1,64 +1,144 @@
 \section{Mecânicas de jogo}
 
 \subsection{Fase 1 - MVP}
-O jogador se movimenta pela Torre PontiAguda selecionando
-um dos nós mais próximos de sua posição atual, como no 
-jogo \textit{Slay The Spire}, e avança para essa nova 
-posição se vencer o confronto ou realizar uma ação 
-disponível nesse nó.
+O jogador se movimenta pela Torre Pontiaguda selecionando 
+um dos nós mais próximos de sua posição atual, seguindo 
+uma lógica semelhante à do jogo \textit{Slay the Spire}. 
+O avanço para o nó selecionado ocorre após a vitória em 
+um combate ou a realização de uma ação disponível naquele
+nó.
 
-Durante o combate, o jogador seleciona algumas espadas 
-para se conectar e energizar com uma quantidade finita 
-de mana, permitindo que elas realizem ações 
-específicas durante o combate.
 
-A mana é um recurso finito que precisa ser gerenciado pelo 
-jogador, podendo ser obtida dos inimigos derrotados, 
-por meio de pedras de mana e meditação em lugares 
-específicos.
+\begin{figure}[!ht]
+    \centering
 
-As espadas têm efeitos e ataques individuais. Além disso,
-podem se combinar com outras espadas para evoluir, como em 
-\textit{Backpack Battles}.
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.6\textwidth]{images/backpack_battle_mochila.png}
+        \caption{Representação da mochila no jogo \textit{Backpack Battles}.}
+        \label{fig:backpack_battle_mochila}
+    \end{subfigure}
+    \hspace{0.5cm}
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.6\textwidth]{images/slay_the_spire_path_choices.jpg}
+        \caption{As opções de caminhos no jogo \textit{Slay The Spire}.}
+        \label{fig:slay_the_spire_path_choices}
+    \end{subfigure}
+
+    \caption{Imagens de referência para fase 1}
+    \label{fig:imagens_referencia_mecanicas_fase_1_1}
+\end{figure}
+
+
+Durante os combates, o jogador seleciona as espadas que 
+deseja conectar e energizar, utilizando uma quantidade 
+limitada de mana. Uma vez energizadas, as espadas podem 
+executar seus ataques e ações defensivas. O combate é 
+dividido em turnos e, entre eles, o jogador pode manter 
+as conexões existentes, desfazê-las para conectar outras 
+espadas ou optar por não estabelecer nenhuma conexão.
+
+A dificuldade dos combates será ajustada dinamicamente 
+por meio de técnicas de \textit{Machine Learning}, com o 
+objetivo de adaptar os desafios ao desempenho do jogador 
+e, assim, aumentar seu engajamento.
+
+A mana é um recurso limitado que deve ser gerenciado 
+estrategicamente pelo jogador. Ela pode ser obtida ao 
+derrotar inimigos, por meio de pedras de mana ou mediante 
+meditação em locais específicos.
+
+Cada espada possui ataques e efeitos individuais. Além 
+disso, as espadas podem ser combinadas para gerar 
+evoluções e novas possibilidades estratégicas, seguindo 
+uma mecânica inspirada no jogo \textit{Backpack Battles}.
+
+
+\begin{figure}[!ht]
+    \centering
+
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.5\textwidth]{images/backpack_battle_Katana_recipe.jpg}
+        \caption{Mecânica de aprimoramento de espada no jogo \textit{Backpack hero}}
+        \label{fig:aprimoramento_espada}
+    \end{subfigure}
+    \hspace{0.6cm}
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.3\textwidth]{images/Crossblades_recipe.jpg}
+        \caption{Mecânica de combinação de espadas no jogo \textit{Backpack hero}}
+        \label{fig:combinação_espadas}
+    \end{subfigure}
+
+    \caption{Imagens de referência para as mecânicas da fase 1}
+    \label{fig:imagens_referencia_mecanicas_fase_1_2}
+\end{figure}
 
 
 \subsection{Fase 2 - Versão Final}
-O jogador poderá mover seu personagem usando WASD, buscar
-oponentes pelo mapa para desafiá-los, os quais poderão ou 
-não aceitar os desafios, e ser desafiado por oponentes 
-aleatórios no mapa. 
+O jogador poderá movimentar seu personagem utilizando as 
+teclas WASD e explorar o mapa em busca de oponentes para 
+desafiá-los. Durante a exploração, também poderá ser 
+desafiado por oponentes encontrados aleatoriamente pelo 
+caminho. Esses oponentes poderão aceitar ou recusar os 
+desafios propostos pelo jogador. A decisão de aceitar ou 
+recusar um desafio será baseada na estimativa da 
+quantidade de mana do adversário, realizada por cada 
+personagem envolvido.
 
-Os desafios serão aceitos ou recusados com base na 
-estimativa da quantidade de mana do oponente feita por 
-cada personagem.
 
-As espadas companheiras poderão ficar flutuando em torno 
-do jogador para interagir com o ambiente ou permanecer na
-mão do jogador para serem usadas em combate contra 
-criaturas sem espadas em ruínas.
+\begin{figure}[!ht]
+    \centering
 
-Para acessar a Torre PontiAguda, o jogador precisará
-explorar ruínas ao redor da Torre para encontrar os 
-símbolos espirituais, que liberam acesso às habilidades 
-de uma \textit{skill tree}, como a de \textit{Arc Raiders}
-, o que traz maior variedade ao jogo.
+    \begin{subfigure}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.35\textwidth]{images/star_wars_sith_lords.jpeg}
+        \caption{Representação da mecânica de espada flutuando arredor do personagem no jogo \textit{Star Wars: Knights of the Old Republic II}}
+        \label{fig:star_wars_sith_lord}
+    \end{subfigure}
+    \hspace{0.6cm}
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{images/buck_anime.jpg}
+        \caption{A Torre Pontiaguda no universo do anime Buck.}
+        \label{fig:buck_anime}
+    \end{subfigure}
+
+    \caption{Imagens de referência para fase 2}
+    \label{fig:imagens_referencia_mecanicas_fase_1_3}
+\end{figure}
+
+
+As espadas companheiras poderão flutuar ao redor do 
+jogador, permitindo a interação com o ambiente, ou 
+permanecer em suas mãos para serem utilizadas em combates 
+contra criaturas desarmadas encontradas nas ruínas.
+
+Para acessar a Torre Pontiaguda, o jogador precisará 
+explorar as ruínas ao seu redor em busca de símbolos 
+espirituais. Esses símbolos liberarão o acesso a 
+habilidades de uma \textit{skill tree}, seguindo uma 
+proposta semelhante à de \textit{Arc Raiders}, ampliando a 
+variedade de possibilidades de progressão no jogo.
 
 
 \begin{figure}[!ht]
     \centering
 
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{images/pokemon_sample_2.jpg}
+        \centering
+        \includegraphics[width=0.8\textwidth]{images/pokemon_sample_2.jpg}
         \caption{Pokémon visão \textit{top-down}}
         \label{fig:pokémon_top-down}
     \end{subfigure}
     \hspace{0.6cm}
-    \begin{subfigure}{0.4\textwidth}
+    \begin{subfigure}{0.35\textwidth}
         \includegraphics[width=\textwidth]{images/arc_raiders_skill_tree.jpg}
         \caption{\textit{Arc Raiders Skill Tree}}
         \label{fig:skill_tree_sample}
     \end{subfigure}
 
     \caption{Imagens de referência para as mecânicas da fase 2}
-    \label{fig:imagens_referencia_mecanics_final}
+    \label{fig:imagens_referencia_mecanicas_fase_2}
 \end{figure}

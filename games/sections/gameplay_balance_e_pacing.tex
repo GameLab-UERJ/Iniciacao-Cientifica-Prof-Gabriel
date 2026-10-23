@@ -1,0 +1,30 @@
+\section{Balanceamento e ritmo de jogo}
+
+No MVP, o jogo será um \textit{roguelike} de construção 
+de mochilas, que poderá ser jogado repetidas vezes até 
+que o jogador alcance o topo da torre. A dificuldade 
+dos combates será ajustada por um modelo de 
+\textit{Machine Learning}, com base no desempenho 
+do jogador durante a escalada.
+
+A maneira de combinar os itens deverá ser descoberta ao 
+longo do jogo.
+
+Na Fase 2, deverão ser implementadas mecânicas que 
+limitem a obtenção rápida das chaves necessárias para 
+acessar a Torre Pontiaguda e estabeleçam uma ordem 
+específica para coletá-las, de maneira semelhante à 
+progressão pelos ginásios da franquia Pokémon.
+
+Além disso, uma quantidade adequada de combates deverá 
+ser distribuída pelo mapa para fornecer dados que 
+permitam treinar o modelo de \textit{Machine Learning}. 
+O mapa será dividido em regiões de dificuldade, e a 
+dificuldade inicial de cada região será definida com 
+base nos resultados obtidos pelo jogador na região 
+anterior.
+
+Quando o jogador tiver acesso à Torre Pontiaguda, o 
+desempenho obtido durante a progressão pelo mapa será 
+utilizado como referência inicial para definir a 
+dificuldade dos combates na torre.

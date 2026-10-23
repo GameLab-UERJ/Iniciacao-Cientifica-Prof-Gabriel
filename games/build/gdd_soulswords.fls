@@ -678,6 +678,36 @@ INPUT ./sections/core_gameplay.tex
 INPUT sections/core_gameplay.tex
 INPUT ./sections/core_gameplay.tex
 INPUT sections/core_gameplay.tex
+INPUT ./images/backpack_battle_mochila.png
+INPUT ./images/backpack_battle_mochila.png
+INPUT images/backpack_battle_mochila.png
+INPUT ./images/backpack_battle_mochila.png
+INPUT ./images/backpack_battle_mochila.png
+INPUT ./images/slay_the_spire_path_choices.jpg
+INPUT ./images/slay_the_spire_path_choices.jpg
+INPUT images/slay_the_spire_path_choices.jpg
+INPUT ./images/slay_the_spire_path_choices.jpg
+INPUT ./images/slay_the_spire_path_choices.jpg
+INPUT ./images/backpack_battle_Katana_recipe.jpg
+INPUT ./images/backpack_battle_Katana_recipe.jpg
+INPUT images/backpack_battle_Katana_recipe.jpg
+INPUT ./images/backpack_battle_Katana_recipe.jpg
+INPUT ./images/backpack_battle_Katana_recipe.jpg
+INPUT ./images/Crossblades_recipe.jpg
+INPUT ./images/Crossblades_recipe.jpg
+INPUT images/Crossblades_recipe.jpg
+INPUT ./images/Crossblades_recipe.jpg
+INPUT ./images/Crossblades_recipe.jpg
+INPUT ./images/star_wars_sith_lords.jpeg
+INPUT ./images/star_wars_sith_lords.jpeg
+INPUT images/star_wars_sith_lords.jpeg
+INPUT ./images/star_wars_sith_lords.jpeg
+INPUT ./images/star_wars_sith_lords.jpeg
+INPUT ./images/buck_anime.jpg
+INPUT ./images/buck_anime.jpg
+INPUT images/buck_anime.jpg
+INPUT ./images/buck_anime.jpg
+INPUT ./images/buck_anime.jpg
 INPUT ./images/pokemon_sample_2.jpg
 INPUT ./images/pokemon_sample_2.jpg
 INPUT images/pokemon_sample_2.jpg
@@ -692,6 +722,14 @@ INPUT ./sections/controls.tex
 INPUT sections/controls.tex
 INPUT ./sections/controls.tex
 INPUT sections/controls.tex
+INPUT ./sections/gameplay_balance_e_pacing.tex
+INPUT sections/gameplay_balance_e_pacing.tex
+INPUT ./sections/gameplay_balance_e_pacing.tex
+INPUT sections/gameplay_balance_e_pacing.tex
+INPUT ./sections/character designs.tex
+INPUT sections/character designs.tex
+INPUT ./sections/character designs.tex
+INPUT sections/character designs.tex
 INPUT build/gdd_soulswords.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.28)  18 SEP 2026 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.28)  23 OCT 2026 09:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -510,61 +510,76 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 <images/backpack_battle_sample.jpg, id=1, 1445.4pt x 813.0375pt>
 File: images/backpack_battle_sample.jpg Graphic file (type jpg)
 <use images/backpack_battle_sample.jpg>
-Package pdftex.def Info: images/backpack_battle_sample.jpg  used on input line 28.
+Package pdftex.def Info: images/backpack_battle_sample.jpg  used on input line 30.
 (pdftex.def)             Requested size: 128.0387pt x 72.01646pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 29.
+(Font)              scaled to size 10.95pt on input line 31.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 29.
+(Font)              scaled to size 10.95pt on input line 31.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 29.
+(Font)              scaled to size 10.0pt on input line 31.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.0pt on input line 29.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 31.
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 31.
+(Font)              scaled to size 12.0pt on input line 33.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 31.
+(Font)              scaled to size 8.8pt on input line 33.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 31.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 31.
+(Font)              scaled to size 6.6pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 31.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 31.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 <images/slay_the_spire_sample.jpg, id=2, 1927.2pt x 3267.20625pt>
 File: images/slay_the_spire_sample.jpg Graphic file (type jpg)
 <use images/slay_the_spire_sample.jpg>
-Package pdftex.def Info: images/slay_the_spire_sample.jpg  used on input line 38.
+Package pdftex.def Info: images/slay_the_spire_sample.jpg  used on input line 40.
 (pdftex.def)             Requested size: 72.54623pt x 113.76566pt.
 <images/pokemon_sample_1.jpg, id=3, 642.4pt x 427.5975pt>
 File: images/pokemon_sample_1.jpg Graphic file (type jpg)
 <use images/pokemon_sample_1.jpg>
-Package pdftex.def Info: images/pokemon_sample_1.jpg  used on input line 64.
+Package pdftex.def Info: images/pokemon_sample_1.jpg  used on input line 66.
 (pdftex.def)             Requested size: 85.35696pt x 56.80972pt.
 ) (./sections/design_pillars.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/backpack_battle_sample.jpg> <./images/slay_the_spire_sample.jpg> <./images/pokemon_sample_1.jpg>] (./tables/design_pillars_table.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.95pt on input line 23.
+(Font)              scaled to size 10.95pt on input line 22.
 
-Underfull \hbox (badness 4060) in paragraph at lines 32--32
-[]|\T1/ntxtlf/m/n/12 A di-ver-são decorre da
+Underfull \hbox (badness 3000) in paragraph at lines 31--31
+[]|\T1/ntxtlf/m/n/12 A de-scoberta de no-vas
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 32--32
-\T1/ntxtlf/m/n/12 busca por obter es-padas
+Underfull \hbox (badness 1552) in paragraph at lines 31--31
+\T1/ntxtlf/m/n/12 en-tre es-padas du-rante o
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 31--31
+\T1/ntxtlf/m/n/12 com-bate des-perta en-tu-si-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 31--31
+[]|\T1/ntxtlf/m/n/12 A busca pe-los sím-bo-los
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 31--31
+\T1/ntxtlf/m/n/12 o topo da Torre Pon-ti-
  []
 
 )) (./sections/audience_marketing.tex
@@ -574,31 +589,63 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
-) (./sections/core_gameplay.tex [2]
-<images/pokemon_sample_2.jpg, id=17, 321.2pt x 240.9pt>
+) (./sections/core_gameplay.tex
+<images/backpack_battle_mochila.png, id=13, 477.785pt x 421.575pt>
+File: images/backpack_battle_mochila.png Graphic file (type png)
+<use images/backpack_battle_mochila.png>
+Package pdftex.def Info: images/backpack_battle_mochila.png  used on input line 17.
+(pdftex.def)             Requested size: 102.4294pt x 90.37311pt.
+<images/slay_the_spire_path_choices.jpg, id=15, 730.73pt x 548.0475pt>
+File: images/slay_the_spire_path_choices.jpg Graphic file (type jpg)
+<use images/slay_the_spire_path_choices.jpg>
+Package pdftex.def Info: images/slay_the_spire_path_choices.jpg  used on input line 24.
+(pdftex.def)             Requested size: 102.4294pt x 76.81812pt.
+ [2 <./images/backpack_battle_mochila.png> <./images/slay_the_spire_path_choices.jpg>]
+<images/backpack_battle_Katana_recipe.jpg, id=21, 442.65375pt x 413.545pt>
+File: images/backpack_battle_Katana_recipe.jpg Graphic file (type jpg)
+<use images/backpack_battle_Katana_recipe.jpg>
+Package pdftex.def Info: images/backpack_battle_Katana_recipe.jpg  used on input line 63.
+(pdftex.def)             Requested size: 85.35696pt x 79.74174pt.
+<images/Crossblades_recipe.jpg, id=22, 106.3975pt x 166.6225pt>
+File: images/Crossblades_recipe.jpg Graphic file (type jpg)
+<use images/Crossblades_recipe.jpg>
+Package pdftex.def Info: images/Crossblades_recipe.jpg  used on input line 70.
+(pdftex.def)             Requested size: 51.21469pt x 80.20416pt.
+<images/star_wars_sith_lords.jpeg, id=23, 192.72pt x 237.88875pt>
+File: images/star_wars_sith_lords.jpeg Graphic file (type jpg)
+<use images/star_wars_sith_lords.jpeg>
+Package pdftex.def Info: images/star_wars_sith_lords.jpeg  used on input line 97.
+(pdftex.def)             Requested size: 74.68979pt x 92.19545pt.
+<images/buck_anime.jpg, id=24, 602.25pt x 339.2675pt>
+File: images/buck_anime.jpg Graphic file (type jpg)
+<use images/buck_anime.jpg>
+Package pdftex.def Info: images/buck_anime.jpg  used on input line 103.
+(pdftex.def)             Requested size: 170.71393pt x 96.16937pt.
+ [3 <./images/backpack_battle_Katana_recipe.jpg> <./images/Crossblades_recipe.jpg> <./images/star_wars_sith_lords.jpeg> <./images/buck_anime.jpg>]
+<images/pokemon_sample_2.jpg, id=28, 321.2pt x 240.9pt>
 File: images/pokemon_sample_2.jpg Graphic file (type jpg)
 <use images/pokemon_sample_2.jpg>
-Package pdftex.def Info: images/pokemon_sample_2.jpg  used on input line 51.
-(pdftex.def)             Requested size: 128.0387pt x 96.03113pt.
-<images/arc_raiders_skill_tree.jpg, id=18, 903.375pt x 508.14844pt>
+Package pdftex.def Info: images/pokemon_sample_2.jpg  used on input line 131.
+(pdftex.def)             Requested size: 102.43134pt x 76.82123pt.
+<images/arc_raiders_skill_tree.jpg, id=29, 903.375pt x 508.14844pt>
 File: images/arc_raiders_skill_tree.jpg Graphic file (type jpg)
 <use images/arc_raiders_skill_tree.jpg>
-Package pdftex.def Info: images/arc_raiders_skill_tree.jpg  used on input line 57.
-(pdftex.def)             Requested size: 170.71393pt x 96.02194pt.
-) (./sections/controls.tex) [3 <./images/pokemon_sample_2.jpg> <./images/arc_raiders_skill_tree.jpg>] (build/gdd_soulswords.aux) ) 
+Package pdftex.def Info: images/arc_raiders_skill_tree.jpg  used on input line 137.
+(pdftex.def)             Requested size: 149.37958pt x 84.02696pt.
+) (./sections/controls.tex [4 <./images/pokemon_sample_2.jpg> <./images/arc_raiders_skill_tree.jpg>]) (./sections/gameplay_balance_e_pacing.tex) (./sections/character designs.tex) [5] (build/gdd_soulswords.aux) ) 
 Here is how much of TeX's memory you used:
- 9756 strings out of 480247
- 147031 string characters out of 5896151
- 427086 words of memory out of 5000000
- 27523 multiletter control sequences out of 15000+600000
+ 9825 strings out of 480247
+ 149350 string characters out of 5896151
+ 428224 words of memory out of 5000000
+ 27578 multiletter control sequences out of 15000+600000
  524681 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  88i,11n,134p,1277b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on build/gdd_soulswords.pdf (3 pages, 1684685 bytes).
+Output written on build/gdd_soulswords.pdf (5 pages, 3570118 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
